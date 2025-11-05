@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import { Heart } from "lucide-react";
 
 const struggles = [
-  "The pain of not eating the food they love.",
-  "The embarrassment of hiding their smile.",
-  "The frustration of dentures that make them feel older than they are."
+  "Watching others monetize similar content while you're still figuring it out.",
+  "The frustration of building an audience but not knowing how to turn it into income.",
+  "Feeling overwhelmed by tech platforms, funnels, and marketing systems."
 ];
 
 export default function EmotionalCore() {
@@ -19,18 +19,18 @@ export default function EmotionalCore() {
           viewport={{ once: true }}
         >
           <div className="inline-flex items-center gap-3 mb-8">
-            <Heart className="w-6 h-6 text-yellow-400" />
-            <span className="text-sm uppercase tracking-wider text-yellow-400">
-              The Emotional Core
+            <Heart className="w-6 h-6 text-[#006eff]" />
+            <span className="text-sm uppercase tracking-wider text-[#006eff]">
+              We Understand
             </span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-white">
-            Behind Every Consult Is Someone Who Feels Trapped
+            You've Built the Audience. Now It's Time to Get Paid.
           </h2>
 
           <p className="text-lg md:text-xl mb-12 text-white/80">
-            Patients in your city are silently living with:
+            We know the struggle creators face every day:
           </p>
 
           <div className="space-y-4 mb-12">
@@ -52,7 +52,7 @@ export default function EmotionalCore() {
 
           <div className="p-10 rounded-3xl bg-gradient-to-br from-white/[0.05] to-white/[0.02] border border-white/20">
             <p className="text-xl md:text-2xl font-semibold text-white/90">
-              Your content should speak to their pain — not your equipment.
+              Your knowledge is valuable — it's time to package it and profit from it.
             </p>
           </div>
         </motion.div>

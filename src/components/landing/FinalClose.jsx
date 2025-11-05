@@ -13,51 +13,51 @@ export default function FinalClose() {
           viewport={{ once: true }}
         >
           <div className="inline-flex items-center gap-3 mb-6 md:mb-8">
-            <Smartphone className="w-5 h-5 sm:w-6 sm:h-6 text-yellow-400" />
-            <span className="text-xs sm:text-sm uppercase tracking-wider text-yellow-400">
-              Final Close
+            <Smartphone className="w-5 h-5 sm:w-6 sm:h-6 text-[#006eff]" />
+            <span className="text-xs sm:text-sm uppercase tracking-wider text-[#006eff]">
+              Ready to Start?
             </span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 md:mb-8 px-2 text-white">
-            Your Next Implant Patient Is Scrolling Right Now
+            Your Audience Is Already Waiting
           </h2>
 
           <p className="text-xl sm:text-2xl md:text-3xl font-semibold mb-8 md:mb-12 px-4 text-white">
-            The Only Question: Will They Find You?
+            The Only Question: Are You Ready to Monetize?
           </p>
 
           <div className="space-y-4 md:space-y-6 mb-8 md:mb-12 max-w-2xl mx-auto px-4">
             <p className="text-base sm:text-lg md:text-xl text-white/80">
-              You've seen the proof. You've read the reviews. You know what this system can do.
+              You've built the trust. You've created the content. You have the knowledge people need.
             </p>
             <p className="text-base sm:text-lg md:text-xl text-white/80">
-              The practices that win in 2025 aren't the ones who post the most.
+              The creators who succeed in 2025 aren't the ones with the most followers.
             </p>
             <p className="text-base sm:text-lg md:text-xl font-semibold text-white">
-              They're the ones who own the scroll.
+              They're the ones who turn their influence into income.
             </p>
           </div>
 
           <div className="mb-6 md:mb-8 px-4">
             <a
-              href="https://whop.com/archify-io/social-media-dental-blueprint/"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
-              className="relative w-full sm:w-auto inline-flex items-center justify-center gap-2 sm:gap-3 rounded-xl px-10 sm:px-14 md:px-20 lg:px-28 py-6 sm:py-7 md:py-9 lg:py-11 text-black font-bold transition-all hover:scale-105 bg-gradient-to-b from-yellow-300 via-yellow-400 to-yellow-500 shadow-[0_0_20px_rgba(250,204,21,0.5),0_0_40px_rgba(250,204,21,0.3),0_0_60px_rgba(250,204,21,0.2)]"
+              className="relative w-full sm:w-auto inline-flex items-center justify-center gap-2 sm:gap-3 rounded-xl px-10 sm:px-14 md:px-20 lg:px-28 py-6 sm:py-7 md:py-9 lg:py-11 text-white font-bold transition-all hover:scale-105 bg-gradient-to-b from-[#0080ff] via-[#006eff] to-[#0050cc] shadow-[0_0_20px_rgba(0,110,255,0.5),0_0_40px_rgba(0,110,255,0.3),0_0_60px_rgba(0,110,255,0.2)]"
             >
               <span 
-                className="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-b from-white/40 via-transparent to-transparent"
+                className="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-b from-white/20 via-transparent to-transparent"
               />
               <span className="relative z-10 text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed flex items-center justify-center gap-2 sm:gap-3">
-                <span className="whitespace-nowrap">Yes, Get It!</span>
+                <span className="whitespace-nowrap">Start Your Journey Today</span>
                 <ArrowRight className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 flex-shrink-0" />
               </span>
             </a>
           </div>
 
           <p className="text-xs sm:text-sm px-4 text-white/50">
-            No contracts. No hidden fees. Just results.
+            Full done-for-you service. Launch support included. Results guaranteed.
           </p>
         </motion.div>
       </div>

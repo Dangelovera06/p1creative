@@ -43,7 +43,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <span className="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-[11px] uppercase tracking-wider text-white/70 ring-1 ring-white/10 backdrop-blur">
-              <span className="h-1.5 w-1.5 rounded-full bg-yellow-400/70" /> Full-Arch Growth System
+              <span className="h-1.5 w-1.5 rounded-full bg-[#006eff]/70" /> Full-Service Monetization
             </span>
           </motion.div>
           
@@ -53,14 +53,14 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <div className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 text-white/90">
-              The{' '}
-              <span className="bg-gradient-to-r from-yellow-300 via-white to-yellow-300 bg-clip-text text-transparent">
-                $100K Implant Funnel
+              Turn Your{' '}
+              <span className="bg-gradient-to-r from-[#006eff] via-white to-[#006eff] bg-clip-text text-transparent">
+                Social Media Audience
               </span>
-              :
+              {' '}Into Revenue
             </div>
             <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl text-white leading-tight">
-              A 30-Day Coached Sprint to Book Your First Full-Arch Case from Social Media
+              We Build Your Course, Sales Funnel & Everything You Need to Monetize Your Knowledge A-Z
             </h1>
           </motion.div>
           
@@ -70,26 +70,24 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="mx-auto mt-5 max-w-2xl text-balance text-lg text-white/80 md:text-xl"
           >
-            Live coaching, done-for-you scripts & templates, and daily accountability — We work with you until you land your first case
+            Done-for-you course creation, sales funnels, email automation, and launch strategy — We handle everything so you can focus on your audience
           </motion.p>
 
-          {/* Landing Page Image */}
+          {/* Placeholder Section */}
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             className="mt-6 mb-8 md:mb-10 max-w-4xl mx-auto w-full"
           >
-            <div className="relative">
-              <img 
-                src="/fixed-size-im.png" 
-                alt="Archify.io Landing Page" 
-                className="w-full h-auto opacity-100"
-              />
+            <div className="relative rounded-2xl border-2 border-[#006eff]/30 bg-gradient-to-br from-[#006eff]/10 to-transparent p-12 sm:p-16 md:p-24 backdrop-blur-sm">
+              <div className="text-center text-white/40 text-xl sm:text-2xl md:text-3xl font-medium">
+                Hero Visual Placeholder
+              </div>
             </div>
           </motion.div>
 
-          {/* Rainbow CTA Button */}
+          {/* CTA Button */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -104,19 +102,19 @@ export default function Hero() {
                     content_category: 'CTA Button'
                   });
                 }
-                window.open('https://whop.com/archify-io/social-media-dental-blueprint/', '_blank');
+                window.open('#', '_blank');
               }}
               className="w-full sm:w-auto text-base sm:text-lg md:text-xl lg:text-2xl px-10 sm:px-14 md:px-20 lg:px-28 py-6 sm:py-7 md:py-9 lg:py-11 h-auto"
             >
-              Yes, Get It!
+              Get Started Today
             </RainbowButton>
             
             {/* Countdown Timer */}
             <div className="flex items-center justify-center gap-2 text-sm sm:text-base md:text-lg">
               <span className="font-semibold text-white/80">
-                Offer ends in:
+                Limited spots available:
               </span>
-              <span className="font-extrabold tabular-nums bg-gradient-to-r from-yellow-300 via-white to-yellow-300 bg-clip-text text-transparent">
+              <span className="font-extrabold tabular-nums bg-gradient-to-r from-[#006eff] via-white to-[#006eff] bg-clip-text text-transparent">
                 {formatTime()}
               </span>
             </div>
@@ -139,17 +137,17 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.7 }}
             className="mb-6 md:mb-8 px-4"
           >
-            <div className="inline-flex items-center gap-2 sm:gap-3 md:gap-4 px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-6 rounded-xl md:rounded-2xl bg-gradient-to-r from-yellow-500/10 via-yellow-400/10 to-yellow-500/10 border border-yellow-400/30 md:border-2 backdrop-blur-sm shadow-lg md:shadow-2xl shadow-yellow-500/20 hover:shadow-yellow-500/30 transition-shadow">
-              <Shield className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 flex-shrink-0 text-yellow-400" />
+            <div className="inline-flex items-center gap-2 sm:gap-3 md:gap-4 px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-6 rounded-xl md:rounded-2xl bg-gradient-to-r from-[#006eff]/10 via-[#006eff]/10 to-[#006eff]/10 border border-[#006eff]/30 md:border-2 backdrop-blur-sm shadow-lg md:shadow-2xl shadow-[#006eff]/20 hover:shadow-[#006eff]/30 transition-shadow">
+              <Shield className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 flex-shrink-0 text-[#006eff]" />
               <div className="text-left">
                 <div className="font-extrabold text-base sm:text-lg md:text-2xl lg:text-3xl text-white mb-0.5 md:mb-1">
-                  Money Back Guarantee
+                  Results Guarantee
                 </div>
-                <div className="text-xs sm:text-sm md:text-base lg:text-lg text-yellow-200/90 font-medium">
-                  Not satisfied? Get a full refund, no questions asked.
+                <div className="text-xs sm:text-sm md:text-base lg:text-lg text-[#006eff]/90 font-medium">
+                  We don't stop until your product is launched and profitable.
                 </div>
               </div>
-              <CheckCircle className="hidden sm:block w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 flex-shrink-0 text-yellow-400" />
+              <CheckCircle className="hidden sm:block w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 flex-shrink-0 text-[#006eff]" />
             </div>
           </motion.div>
 
@@ -161,20 +159,20 @@ export default function Hero() {
             className="mb-6 md:mb-8 px-4"
           >
             <div className="grid sm:grid-cols-2 gap-3 sm:gap-4 max-w-3xl mx-auto">
-              <div className="flex items-center gap-2 px-4 sm:px-5 md:px-6 py-3 sm:py-4 md:py-5 rounded-xl bg-gradient-to-r from-green-500/10 via-emerald-400/10 to-green-500/10 border border-green-400/40 sm:border-2 backdrop-blur-sm shadow-lg sm:shadow-xl shadow-green-500/20">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-green-400/20 flex items-center justify-center flex-shrink-0">
-                  <Clock className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-green-400" />
+              <div className="flex items-center gap-2 px-4 sm:px-5 md:px-6 py-3 sm:py-4 md:py-5 rounded-xl bg-gradient-to-r from-[#006eff]/10 via-[#006eff]/10 to-[#006eff]/10 border border-[#006eff]/40 sm:border-2 backdrop-blur-sm shadow-lg sm:shadow-xl shadow-[#006eff]/20">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-[#006eff]/20 flex items-center justify-center flex-shrink-0">
+                  <Clock className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-[#006eff]" />
                 </div>
                 <div className="font-bold text-sm sm:text-base md:text-lg text-white">
-                  Learn in Half a Day
+                  Launch in 30 Days
                 </div>
               </div>
-              <div className="flex items-center gap-2 px-4 sm:px-5 md:px-6 py-3 sm:py-4 md:py-5 rounded-xl bg-gradient-to-r from-green-500/10 via-emerald-400/10 to-green-500/10 border border-green-400/40 sm:border-2 backdrop-blur-sm shadow-lg sm:shadow-xl shadow-green-500/20">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-green-400/20 flex items-center justify-center flex-shrink-0">
-                  <Video className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-green-400" />
+              <div className="flex items-center gap-2 px-4 sm:px-5 md:px-6 py-3 sm:py-4 md:py-5 rounded-xl bg-gradient-to-r from-[#006eff]/10 via-[#006eff]/10 to-[#006eff]/10 border border-[#006eff]/40 sm:border-2 backdrop-blur-sm shadow-lg sm:shadow-xl shadow-[#006eff]/20">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-[#006eff]/20 flex items-center justify-center flex-shrink-0">
+                  <Video className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-[#006eff]" />
                 </div>
                 <div className="font-bold text-sm sm:text-base md:text-lg text-white">
-                  Make First Ad in 24hr
+                  Fully Done-For-You
                 </div>
               </div>
             </div>

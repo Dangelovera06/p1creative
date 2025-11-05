@@ -40,21 +40,23 @@ export default function Landing() {
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 sm:px-6 md:px-8 py-3 sm:py-4 gap-4">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="Archify.io" className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl shadow-lg" />
-            <span className="text-lg sm:text-xl font-bold tracking-tight text-white">Archify.io</span>
+            <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl bg-gradient-to-br from-[#006eff] to-[#0050cc] flex items-center justify-center shadow-lg">
+              <span className="text-white font-bold text-lg sm:text-xl">M</span>
+            </div>
+            <span className="text-lg sm:text-xl font-bold tracking-tight text-white">Momento</span>
           </div>
 
           {/* Timer */}
           <div className="hidden md:flex items-center gap-2 text-sm">
             <span className="font-semibold text-white/80">
-              Offer ends:
+              Limited spots:
             </span>
-            <span className="font-extrabold tabular-nums bg-gradient-to-r from-yellow-300 via-white to-yellow-300 bg-clip-text text-transparent">
+            <span className="font-extrabold tabular-nums bg-gradient-to-r from-[#006eff] via-white to-[#006eff] bg-clip-text text-transparent">
               {formatTime()}
             </span>
           </div>
 
-          {/* Rainbow CTA Button */}
+          {/* CTA Button */}
           <RainbowButton
             onClick={(e) => {
               if (window.fbq) {
@@ -63,10 +65,10 @@ export default function Landing() {
                   content_category: 'CTA Button'
                 });
               }
-              window.open('https://whop.com/archify-io/social-media-dental-blueprint/', '_blank');
+              window.open('#', '_blank');
             }}
           >
-            Join Now
+            Get Started
           </RainbowButton>
         </div>
       </header>
@@ -86,10 +88,10 @@ export default function Landing() {
       <footer className="py-8 sm:py-12 w-full border-t border-white/10 bg-neutral-950">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-xl sm:text-2xl mb-3 sm:mb-4 font-display font-bold text-white">
-            Archify.io
+            Momento
           </div>
           <p className="text-xs sm:text-sm mb-6 sm:mb-8 text-white/60">
-            Turning social media into predictable implant revenue
+            Turning your audience into a profitable business
           </p>
           <div className="flex flex-wrap justify-center gap-4 sm:gap-8 mb-6 sm:mb-8">
             <a href="#" className="text-xs sm:text-sm text-white/60 transition-colors hover:text-white">Privacy Policy</a>
@@ -97,7 +99,7 @@ export default function Landing() {
             <a href="#" className="text-xs sm:text-sm text-white/60 transition-colors hover:text-white">Contact</a>
           </div>
           <div className="text-xs uppercase tracking-wider text-white/40">
-            © 2025 Archify.io. All rights reserved.
+            © 2025 Momento. All rights reserved.
           </div>
         </div>
       </footer>

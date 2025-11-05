@@ -3,18 +3,18 @@ import { motion } from "framer-motion";
 
 const steps = [
   {
-    title: "Get Your Full-Arch Practice Built with a Proven System",
-    description: "Our proven blueprint will analyze your market and combine it with your practice goals to build your full-arch program from scratch—from selecting the most profitable positioning to creating all the content and ads you need.",
+    title: "Your Knowledge Becomes a Structured Product",
+    description: "We work with you to extract and organize your expertise into a professional course or info product. No tech skills needed—we handle all curriculum design, platform setup, and content formatting.",
     image: "/WHAT HAPPENS/1.webp"
   },
   {
-    title: "Get Patients Without Spending Thousands on Ads",
-    description: "Learn how to make your first 5-10 consults for free by leveraging social media organically, without creating content or showing your face, and turn quick wins into consistent monthly revenue.",
+    title: "Your Sales Funnel Goes Live Automatically",
+    description: "We build high-converting landing pages, email sequences, and checkout flows that turn your audience into paying customers. Everything is automated and optimized for maximum conversions.",
     image: "/WHAT HAPPENS/2.webp"
   },
   {
-    title: "Let the System Do the Work for You",
-    description: "Our proven templates and strategies will build all the marketing materials you need to promote your full-arch services across different platforms, scaling your revenue indefinitely.",
+    title: "You Launch and Start Earning",
+    description: "With your product live and marketing systems in place, you start generating revenue from day one. We provide ongoing support and optimization to scale your income month after month.",
     image: "/WHAT HAPPENS/3.webp"
   }
 ];
@@ -32,8 +32,8 @@ export default function WhatHappens() {
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
             This is What Happens After You Join{" "}
-            <span className="bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-300 bg-clip-text text-transparent">
-              Archify.io
+            <span className="bg-gradient-to-r from-[#006eff] via-white to-[#006eff] bg-clip-text text-transparent">
+              Momento
             </span>
           </h2>
         </motion.div>
@@ -48,7 +48,7 @@ export default function WhatHappens() {
               viewport={{ once: true }}
               className="relative"
             >
-              <div className="p-6 rounded-2xl text-left bg-white/[0.02] border border-white/10 backdrop-blur-sm hover:border-yellow-400/30 transition-all duration-300">
+              <div className="p-6 rounded-2xl text-left bg-white/[0.02] border border-white/10 backdrop-blur-sm hover:border-[#006eff]/30 transition-all duration-300">
                 {/* Image */}
                 <div className="mb-6 rounded-xl overflow-hidden">
                   <img 

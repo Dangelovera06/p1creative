@@ -5,23 +5,23 @@ import { RainbowButton } from "@/components/ui/rainbow-button";
 
 const benefits = [
   {
-    title: "YOU DON'T NEED YEARS OF MARKETING EXPERIENCE",
-    description: "Building a predictable full-arch practice doesn't require marketing expertise or years in the industry—it's about following a proven system and using modern tools to reach ready-to-buy patients.",
+    title: "YOU DON'T NEED TECH SKILLS",
+    description: "Building a profitable info product doesn't require coding or technical expertise—we handle all the technical setup, platforms, and integrations so you can focus on your content and audience.",
     icon: "/website icons/21.png"
   },
   {
-    title: "YOU DON'T NEED TO BE ON CAMERA",
-    description: "Archify.io lets you grow your implant practice without ever appearing on video. Our content templates and ad strategies work without you needing to show your face.",
+    title: "YOU DON'T NEED TO BE A COURSE CREATOR",
+    description: "Momento transforms your existing knowledge and content into structured courses and products. We handle the curriculum design, formatting, and delivery—you just provide the expertise.",
     icon: "/website icons/22.png"
   },
   {
-    title: "YOU DON'T NEED SOCIAL MEDIA EXPERIENCE",
-    description: "The Full-Arch Blueprint gives complete beginners a clear path from zero followers to 20+ monthly consults. A step-by-step system shows you every post, ad, and strategy—proven by practices that added $500K+ in just 90 days.",
+    title: "YOU DON'T NEED MARKETING EXPERIENCE",
+    description: "Our proven sales funnel templates convert visitors into paying customers automatically. We build email sequences, landing pages, and checkout flows that have generated millions in revenue.",
     icon: "/website icons/23.png"
   },
   {
-    title: "YOU DON'T NEED A HUGE FOLLOWING",
-    description: "When you join Archify.io, you'll instantly learn how to reach motivated implant patients who are already searching, even with no followers, no ad experience, and no guesswork.",
+    title: "YOU DON'T NEED A MASSIVE AUDIENCE",
+    description: "With Momento, even a modest engaged following can generate serious revenue. We've helped creators with just 5,000 followers build six-figure businesses through strategic monetization.",
     icon: "/website icons/24.png"
   }
 ];
@@ -37,22 +37,22 @@ export default function HardTruth() {
           viewport={{ once: true }}
         >
           <div className="inline-flex items-center gap-3 mb-8">
-            <Sparkles className="w-6 h-6 text-yellow-400" />
-            <span className="text-sm text-yellow-400 uppercase tracking-wider">
+            <Sparkles className="w-6 h-6 text-[#006eff]" />
+            <span className="text-sm text-[#006eff] uppercase tracking-wider">
               Good News
             </span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-white">
-            Stop Watching Other Practices Grow from the Sidelines
+            Stop Leaving Money on the Table
           </h2>
 
           <p className="text-lg sm:text-xl text-white/80 mb-4 max-w-3xl mx-auto">
-            Up until a few months ago, building a successful full-arch practice was only for those who already had years of marketing expertise and huge ad budgets.
+            Until now, monetizing your audience required technical skills, marketing expertise, and months of trial and error.
           </p>
 
-          <p className="text-xl sm:text-2xl font-bold text-yellow-400 mb-12 max-w-3xl mx-auto">
-            Now, our proven system can do everything for you.
+          <p className="text-xl sm:text-2xl font-bold text-[#006eff] mb-12 max-w-3xl mx-auto">
+            Momento handles everything so you can focus on what you do best.
           </p>
 
           <div className="space-y-8 mb-12">
@@ -70,7 +70,7 @@ export default function HardTruth() {
                   alt="" 
                   className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain opacity-90 mb-6"
                 />
-                <p className="text-lg sm:text-xl md:text-2xl font-bold text-yellow-400 mb-3">
+                <p className="text-lg sm:text-xl md:text-2xl font-bold text-[#006eff] mb-3">
                   {benefit.title}
                 </p>
                 <p className="text-base sm:text-lg md:text-xl text-white/80 leading-relaxed">
@@ -96,11 +96,11 @@ export default function HardTruth() {
                     content_category: 'CTA Button'
                   });
                 }
-                window.open('https://whop.com/archify-io/social-media-dental-blueprint/', '_blank');
+                window.open('#', '_blank');
               }}
               className="w-full sm:w-auto text-base sm:text-lg md:text-xl lg:text-2xl px-10 sm:px-14 md:px-20 lg:px-28 py-6 sm:py-7 md:py-9 lg:py-11 h-auto"
             >
-              Yes, Get It!
+              Start Monetizing Today
             </RainbowButton>
           </motion.div>
         </motion.div>

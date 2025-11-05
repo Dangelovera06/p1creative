@@ -46,17 +46,17 @@ export default function SocialProof() {
           className="text-center mb-12"
         >
           <div className="inline-flex items-center gap-3 mb-6">
-            <span className="h-1.5 w-1.5 rounded-full bg-yellow-400" />
-            <span className="text-sm uppercase tracking-wider text-yellow-400">
-              Trusted Nationwide
+            <span className="h-1.5 w-1.5 rounded-full bg-[#006eff]" />
+            <span className="text-sm uppercase tracking-wider text-[#006eff]">
+              Trusted By Creators
             </span>
           </div>
           
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white">
-            Practices Using Our Method
+            Creators We've Helped Scale
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-white/70">
-            See the teams behind $40M+ in implant revenue
+            Join the creators who've generated $10M+ with Momento
           </p>
         </motion.div>
 

@@ -31,8 +31,8 @@ export default function VideoSlider() {
           className="text-center mb-12"
         >
           <div className="inline-flex items-center gap-3 mb-6">
-            <span className="h-1.5 w-1.5 rounded-full bg-yellow-400" />
-            <span className="text-sm uppercase tracking-wider text-yellow-400">
+            <span className="h-1.5 w-1.5 rounded-full bg-[#006eff]" />
+            <span className="text-sm uppercase tracking-wider text-[#006eff]">
               Real Results
             </span>
           </div>
@@ -41,7 +41,7 @@ export default function VideoSlider() {
             See It In Action
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-white/70">
-            Watch real practices transform their implant revenue
+            Watch creators share their Momento success stories
           </p>
         </motion.div>
 
