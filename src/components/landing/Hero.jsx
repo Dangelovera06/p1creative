@@ -18,16 +18,18 @@ export default function Hero() {
           >
                       <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl text-white leading-tight px-2">
                         We Build Your{' '}
-                        <span className="relative inline-block overflow-hidden bg-gradient-to-r from-[#006eff] via-[#0080ff] to-[#006eff] bg-clip-text text-transparent">
-                          <span className="absolute inset-0 translate-x-[20%] bg-gradient-to-r from-transparent via-white/40 to-transparent bg-clip-text text-transparent" style={{ width: '60%' }}></span>
+                        <span className="relative inline-block overflow-hidden bg-gradient-to-b from-[#0080ff] via-[#006eff] to-[#0050cc] bg-clip-text text-transparent">
+                          <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent bg-clip-text text-transparent" style={{ left: '30%', width: '40%' }}></span>
+                          <span className="absolute inset-0 bg-gradient-to-b from-white/20 via-transparent to-transparent bg-clip-text text-transparent"></span>
                           Course, Sales Funnel & Complete
                         </span>
                         {' '}Monetization System
                       </h1>
 
                       <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-light px-2">
-                        <span className="relative inline-block overflow-hidden bg-gradient-to-r from-[#006eff] via-[#0080ff] to-[#006eff] bg-clip-text text-transparent">
-                          <span className="absolute inset-0 translate-x-[20%] bg-gradient-to-r from-transparent via-white/40 to-transparent bg-clip-text text-transparent" style={{ width: '60%' }}></span>
+                        <span className="relative inline-block overflow-hidden bg-gradient-to-b from-[#0080ff] via-[#006eff] to-[#0050cc] bg-clip-text text-transparent">
+                          <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent bg-clip-text text-transparent" style={{ left: '30%', width: '40%' }}></span>
+                          <span className="absolute inset-0 bg-gradient-to-b from-white/20 via-transparent to-transparent bg-clip-text text-transparent"></span>
                           (without needing tech skills or marketing experience)
                         </span>
                       </p>
@@ -54,7 +56,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="flex flex-col items-center gap-4 md:gap-5 mb-6 md:mb-8 px-4"
+            className="flex flex-col items-center gap-4 md:gap-5 mb-12 md:mb-16 px-4"
           >
             <RainbowButton
               onClick={() => {
@@ -74,7 +76,7 @@ export default function Hero() {
           </motion.div>
 
           {/* Performance Image Section */}
-          <div className="mt-8 mb-6 md:mb-8 max-w-5xl mx-auto w-full px-4">
+          <div className="mt-12 md:mt-16 mb-6 md:mb-8 max-w-5xl mx-auto w-full px-4">
             <img 
               src="/Momoento Perfom.png" 
               alt="Performance Results" 
