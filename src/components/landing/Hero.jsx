@@ -16,17 +16,19 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="space-y-4"
           >
-            <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl text-white leading-tight px-2">
-              We Build Your{' '}
-              <span className="bg-gradient-to-r from-[#006eff] via-[#0080ff] to-[#006eff] bg-clip-text text-transparent">
-                Course, Sales Funnel & Complete
-              </span>
-              {' '}Monetization System
-            </h1>
-            
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/70 font-light px-2">
-              (without needing tech skills or marketing experience)
-            </p>
+                      <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl text-white leading-tight px-2">
+                        We Build Your{' '}
+                        <span className="bg-gradient-to-r from-[#00d4ff] via-white to-[#00d4ff] bg-clip-text text-transparent animate-pulse" style={{ textShadow: '0 0 30px rgba(0,212,255,0.8), 0 0 60px rgba(0,212,255,0.5)' }}>
+                          Course, Sales Funnel & Complete
+                        </span>
+                        {' '}Monetization System
+                      </h1>
+
+                      <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-light px-2">
+                        <span className="bg-gradient-to-r from-[#006eff] via-[#0080ff] to-[#006eff] bg-clip-text text-transparent">
+                          (without needing tech skills or marketing experience)
+                        </span>
+                      </p>
             
             <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white pt-2 px-2">
               If you don't make money, we don't get paid — simple as that
