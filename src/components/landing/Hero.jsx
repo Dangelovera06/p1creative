@@ -52,7 +52,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="flex flex-col items-center gap-4 md:gap-5 mb-12 md:mb-16 px-4"
+            className="flex flex-col items-center gap-4 md:gap-5 px-4"
           >
             <RainbowButton
               onClick={() => {
@@ -70,15 +70,6 @@ export default function Hero() {
               Apply Today
             </RainbowButton>
           </motion.div>
-
-          {/* Performance Image Section */}
-          <div className="mt-12 md:mt-16 mb-6 md:mb-8 max-w-6xl mx-auto w-full px-2">
-            <img 
-              src="/Momoento Perfom.png" 
-              alt="Performance Results" 
-              className="w-full h-auto rounded-2xl shadow-[0_0_40px_rgba(0,110,255,0.5),0_0_80px_rgba(0,110,255,0.3),0_0_120px_rgba(0,110,255,0.2)]"
-            />
-          </div>
         </div>
       </div>
     </BeamsBackground>

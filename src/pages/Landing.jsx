@@ -2,6 +2,7 @@ import React from "react";
 import { RainbowButton } from "@/components/ui/rainbow-button";
 
 import Hero from "../components/landing/Hero";
+import PerformanceImage from "../components/landing/PerformanceImage";
 import HardTruth from "../components/landing/HardTruth";
 import WhatHappens from "../components/landing/WhatHappens";
 import EmotionalCore from "../components/landing/EmotionalCore";
@@ -47,6 +48,7 @@ export default function Landing() {
       </header>
 
       <Hero />
+      <PerformanceImage />
       <WhatYouGet />
       <Testimonials />
       <HardTruth />
