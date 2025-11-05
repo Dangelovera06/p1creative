@@ -1,34 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { BeamsBackground } from "@/components/ui/beams-background";
 import { RainbowButton } from "@/components/ui/rainbow-button";
 
 export default function Hero() {
-  const [timeLeft, setTimeLeft] = useState({ hours: 12, minutes: 31, seconds: 59 });
-  const [isMounted, setIsMounted] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setIsMounted(true), 100);
-    return () => clearTimeout(timer);
-  }, []);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeLeft(prev => {
-        if (prev.seconds > 0) {
-          return { ...prev, seconds: prev.seconds - 1 };
-        } else {
-          return { ...prev, seconds: 59 };
-        }
-      });
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
-
-  const formatTime = () => {
-    return `${timeLeft.hours}hrs ${timeLeft.minutes}mins ${timeLeft.seconds}secs`;
-  };
 
   return (
     <BeamsBackground intensity="medium">
@@ -106,16 +81,6 @@ export default function Hero() {
             >
               Apply Today
             </RainbowButton>
-            
-            {/* Countdown Timer */}
-            <div className="flex items-center justify-center gap-2 text-sm sm:text-base md:text-lg">
-              <span className="font-semibold text-white/80">
-                Limited spots available:
-              </span>
-              <span className="font-extrabold tabular-nums bg-gradient-to-r from-[#006eff] via-white to-[#006eff] bg-clip-text text-transparent">
-                {formatTime()}
-              </span>
-            </div>
           </motion.div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { RainbowButton } from "@/components/ui/rainbow-button";
 
 import Hero from "../components/landing/Hero";
@@ -13,25 +13,6 @@ import Testimonials from "../components/landing/Testimonials";
 import WhatYouGet from "../components/landing/WhatYouGet";
 
 export default function Landing() {
-  const [timeLeft, setTimeLeft] = useState({ hours: 12, minutes: 31, seconds: 59 });
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeLeft(prev => {
-        if (prev.seconds > 0) {
-          return { ...prev, seconds: prev.seconds - 1 };
-        } else {
-          return { ...prev, seconds: 59 };
-        }
-      });
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
-
-  const formatTime = () => {
-    return `${timeLeft.hours}hrs ${timeLeft.minutes}mins ${timeLeft.seconds}secs`;
-  };
 
   return (
     <div className="min-h-screen overflow-x-hidden w-full bg-neutral-950">
@@ -40,18 +21,8 @@ export default function Landing() {
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 sm:px-6 md:px-8 py-3 sm:py-4 gap-4">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img src="/Momento Logo.svg" alt="Momento" className="h-10 w-auto sm:h-12" />
+            <img src="/logo.png" alt="Momento" className="h-10 w-auto sm:h-12" />
             <span className="text-lg sm:text-xl font-bold tracking-tight text-white">Momento</span>
-          </div>
-
-          {/* Timer */}
-          <div className="hidden md:flex items-center gap-2 text-sm">
-            <span className="font-semibold text-white/80">
-              Limited spots:
-            </span>
-            <span className="font-extrabold tabular-nums bg-gradient-to-r from-[#006eff] via-white to-[#006eff] bg-clip-text text-transparent">
-              {formatTime()}
-            </span>
           </div>
 
           {/* CTA Button */}
