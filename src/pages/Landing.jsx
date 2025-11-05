@@ -22,7 +22,6 @@ export default function Landing() {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <img src="/Momento Logo.svg" alt="Momento" className="h-10 w-auto sm:h-12" />
-            <span className="text-lg sm:text-xl font-bold tracking-tight text-white">Momento</span>
           </div>
 
           {/* CTA Button */}
