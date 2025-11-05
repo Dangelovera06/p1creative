@@ -21,7 +21,8 @@ export default function Landing() {
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 sm:px-6 md:px-8 py-3 sm:py-4 gap-4">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img src="/Momento Logo1.svg" alt="Momento" className="h-10 w-auto sm:h-12" />
+            <img src="/Momento Logo1.svg" alt="Momento" className="h-12 w-auto sm:h-14" />
+            <span className="text-xl sm:text-2xl font-normal tracking-wide text-white">Momento</span>
           </div>
 
           {/* CTA Button */}
