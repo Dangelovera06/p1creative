@@ -16,7 +16,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="space-y-4"
           >
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl text-white leading-tight">
+            <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl text-white leading-tight px-2">
               We Build Your{' '}
               <span className="bg-gradient-to-r from-[#006eff] via-[#0080ff] to-[#006eff] bg-clip-text text-transparent">
                 Course, Sales Funnel & Complete
@@ -24,11 +24,11 @@ export default function Hero() {
               {' '}Monetization System
             </h1>
             
-            <p className="text-lg sm:text-xl md:text-2xl text-white/70 font-light">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/70 font-light px-2">
               (without needing tech skills or marketing experience)
             </p>
             
-            <p className="text-base sm:text-lg md:text-xl text-white pt-2">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white pt-2 px-2">
               If you don't make money, we don't get paid — simple as that
             </p>
           </motion.div>
@@ -38,10 +38,10 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="mt-6 mb-8 md:mb-10 max-w-4xl mx-auto w-full"
+            className="mt-6 mb-8 md:mb-10 max-w-4xl mx-auto w-full px-4"
           >
-            <div className="relative rounded-2xl border-2 border-[#006eff]/30 bg-gradient-to-br from-[#006eff]/10 to-transparent p-12 sm:p-16 md:p-24 backdrop-blur-sm">
-              <div className="text-center text-white/40 text-xl sm:text-2xl md:text-3xl font-medium">
+            <div className="relative rounded-2xl border-2 border-[#006eff]/30 bg-gradient-to-br from-[#006eff]/10 to-transparent p-8 sm:p-12 md:p-16 lg:p-24 backdrop-blur-sm">
+              <div className="text-center text-white/40 text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium">
                 Hero Visual Placeholder
               </div>
             </div>
@@ -64,8 +64,8 @@ export default function Hero() {
                 }
                 window.open('#', '_blank');
               }}
-              className="text-lg font-bold"
-              style={{ width: '397.2px', height: '62.4px', maxWidth: '100%' }}
+              className="text-base sm:text-lg font-bold w-full sm:w-auto"
+              style={{ maxWidth: '397.2px', height: '62.4px', minWidth: '280px' }}
             >
               Apply Today
             </RainbowButton>

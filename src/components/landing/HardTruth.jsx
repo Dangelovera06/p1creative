@@ -98,8 +98,8 @@ export default function HardTruth() {
                 }
                 window.open('#', '_blank');
               }}
-              className="text-lg font-bold"
-              style={{ width: '397.2px', height: '62.4px', maxWidth: '100%' }}
+              className="text-base sm:text-lg font-bold w-full sm:w-auto"
+              style={{ maxWidth: '397.2px', height: '62.4px', minWidth: '280px' }}
             >
               Apply Today
             </RainbowButton>

@@ -21,8 +21,8 @@ export default function Landing() {
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 sm:px-6 md:px-8 py-3 sm:py-4 gap-4">
           {/* Logo and Name - Left */}
           <div className="flex items-center gap-1.5">
-            <img src="/Max Sized Momento.png" alt="Momento" className="h-10 w-auto sm:h-12" />
-            <span className="text-xl sm:text-2xl font-normal tracking-wide text-white">Momento</span>
+            <img src="/Max Sized Momento.png" alt="Momento" className="h-8 w-auto sm:h-10 md:h-12" />
+            <span className="text-lg sm:text-xl md:text-2xl font-normal tracking-wide text-white">Momento</span>
           </div>
 
           {/* Offer Text - Center */}
@@ -41,6 +41,7 @@ export default function Landing() {
               }
               window.open('#', '_blank');
             }}
+            className="text-sm sm:text-base"
           >
             Apply Now
           </RainbowButton>
