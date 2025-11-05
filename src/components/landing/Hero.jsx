@@ -33,17 +33,15 @@ export default function Hero() {
             </p>
           </motion.div>
 
-          {/* Placeholder Section */}
+          {/* Video Section */}
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             className="mt-6 mb-8 md:mb-10 max-w-4xl mx-auto w-full px-4"
           >
-            <div className="relative rounded-2xl border-2 border-[#006eff]/30 bg-gradient-to-br from-[#006eff]/10 to-transparent p-8 sm:p-12 md:p-16 lg:p-24 backdrop-blur-sm">
-              <div className="text-center text-white/40 text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium">
-                Hero Visual Placeholder
-              </div>
+            <div className="relative rounded-2xl overflow-hidden border-2 border-[#006eff]/30 shadow-2xl shadow-[#006eff]/20">
+              <wistia-player media-id="w4p6cr6l8l" aspect="1.7777777777777777"></wistia-player>
             </div>
           </motion.div>
 
